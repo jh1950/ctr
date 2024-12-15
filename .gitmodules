@@ -1,6 +1,0 @@
-[submodule "connectors"]
-	path = opencti-connectors
-	url = https://github.com/OpenCTI-Platform/connectors
-[submodule "docker"]
-	path = opencti-docker
-	url = https://github.com/OpenCTI-Platform/docker

@@ -5,6 +5,8 @@
 [OpenCTI](https://github.com/OpenCTI-Platform/opencti)
 서버를 구성하기 위한 Bash 스크립트
 
+컨테이너가 실행 중인 상태로 시스템 재시작 시 에러가 발생할 수 있습니다. 그런 경우 컨테이너 중지 후 재시작해 주세요.
+
 
 
 ## Tested OS
@@ -75,4 +77,11 @@
     ```shell
     cd ~/opencti
     ./compose.sh
+    ```
+
+7. 컨테이너 중지
+
+    ```shell
+    cd ~/opencti
+    ./compose.sh down
     ```
